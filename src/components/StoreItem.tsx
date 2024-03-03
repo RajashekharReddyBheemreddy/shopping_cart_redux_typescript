@@ -22,10 +22,10 @@ export const StoreItem = ({ id, name, price, imgUrl }: storeItemProps) => {
   const cartProducts = useAppSelector((state) => state.cart);
 
   const ItemQuantity = async (id: number) => {
-    const temp = await dispatch(getItemQuantity(id));
+    await dispatch(getItemQuantity(id));
     setProductId(id);
   };
-  let quantity = cartProducts.find((item) => item.id === id)?.quantity || 0;
+  let quantity = cartProducts.find((item) => item.id === productId)?.quantity || 0;
 
   return (
     <Card className="h-100">
