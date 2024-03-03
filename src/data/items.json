@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Ear Pods",
+        "price": 10.99,
+        "imgUrl": "/images/pods.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Computer",
+        "price": 1199,
+        "imgUrl": "/images/computer.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mobile",
+        "price": 899,
+        "imgUrl": "/images/mobile.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Watch",
+        "price": 200.99,
+        "imgUrl": "/images/watch.jpg"
+    }
+]
